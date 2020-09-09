@@ -60,3 +60,7 @@ jobs:
         ftp-username: 812762grMUVs
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build
+    - name: Console.log
+      run: |        
+        console.log("test") 
+        
